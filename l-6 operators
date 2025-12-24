@@ -1,0 +1,77 @@
+
+// there are 2 types of  header files:
+//. system header file : it comes with compiler:
+#include <iostream>
+//. user defined header files; it is written by programmer
+//#include "utkmiz.13" = this will prduce the error if utkmiz.13 is not present in current directopry
+
+
+using namespace std;
+//
+int main ()
+{
+    int a=4,b=4;
+    cout<<"opreater in cpp:"<<endl;
+    cout<<" following types of arthmetic operators "<<endl;
+    //ARthmetic operators 
+    
+    cout<< " the value of a + b is "<<a+b<<endl;
+    cout<< " the value of a + b is "<<a-b<<endl;
+    cout<< " the value of a + b is "<<a*b<<endl;
+    cout<< " the value of a + b is "<<a/b<<endl;
+    cout<< " the value of a + b is "<<a%b<<endl;
+    cout<< " the value of a + b is "<<a/b<<endl;
+    cout<< " the value of a ++ is "<<a++<<endl;
+    cout<< " the value of a -- is "<<a--<<endl;
+    cout<< " the value of --a  is "<<--a<<endl;
+    cout<< " the value of ++a is "<<++a<<endl;
+   
+   
+   //Assignment operators...> used to assign values to variables 
+   //int a =3 , b=9;
+   //char d='d';
+   
+   
+   
+   //comparison operators
+  cout<<" following are the type of comparison opertorrs in cpp"<<endl;
+  
+  cout<<"the value of a == b is "<<(a==b)<<endl;
+  cout<<"the value of a != b is "<<(a!=b)<<endl;
+  cout<<"the value of a >= b is "<<(a>=b)<<endl;
+  cout<<"the value of a <= b is "<<(a<=b)<<endl;
+  cout<<"the value of a > b is "<<(a>b)<<endl;
+  cout<<"the value of a < b is "<<(a<b)<<endl;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  // logical operators 
+  cout<<"following are the logical operators in cpp" <<endl;
+  cout<<" the value of this logical and operator ((a==b) && (a<b))  is: "<<((a==b) && (a,b))
+  <<endl;
+  
+  
+  
+  
+  
+  cout<<"the value of this logical or operator ((a==b) && (a<b))  is:" <<((a==b) || (a<b))
+  <<endl;
+  
+  
+  
+  
+  
+  
+  
+   return 0;
+}

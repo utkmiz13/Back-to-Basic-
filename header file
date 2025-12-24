@@ -1,0 +1,15 @@
+
+// there are 2 types of  header files:
+//. system header file : it comes with compiler:
+#include <iostream>
+//. user defined header files; it is written by programmer
+//#include "utkmiz.13" = this will prduce the error if utkmiz.13 is not present in current directopry
+
+
+using namespace std;
+//
+int main ()
+{
+    cout<<"this is hellow world program";
+   return 0;
+}

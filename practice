@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main (){
+   int a,b;
+   
+   
+   
+   cout<<" welcome to the utkarsh calcuator"<<endl;
+   cout<< "................................"<<endl;
+   
+   cout <<" enter the first value \n";
+   cin>>a;
+   
+   
+   cout<< " the first number " << a << " is captured sussecfully\n";
+   
+   
+   
+   cout<< " enter the second value \n";
+   cin>>b;
+   
+   cout << " the second number " << b << " captured sussecfully\n";
+  
+  cout<< " The additon of " << a << " and " << b << "is" << a + b<< endl;
+  cout << " the subtraction of " << a << " and " << b << " is " << a - b <<endl;
+    return 0;
+}
